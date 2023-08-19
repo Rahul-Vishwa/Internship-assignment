@@ -1,0 +1,41 @@
+.align-screen-center{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.loading{
+    font-size: xx-large;
+}
+.arrow-button{
+    background-color: white;
+    border: none;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -40px;
+}
+.arrow-button:hover{
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.department{
+    font-weight: bold;
+}
+.sub_department{
+    margin-left: 40px;
+}
+.align-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.checklist{
+    margin-bottom: 50px;
+    height: 300px;
+}
